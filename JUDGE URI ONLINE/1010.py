@@ -1,0 +1,11 @@
+COD1,PECAS1,VALOR1=input().split()
+COD2,PECAS2,VALOR2=input().split()
+COD1 = int(COD1)
+PECAS1 = int(PECAS1)
+VALOR1 = float(VALOR1)
+COD2 = int(COD2)
+PECAS2 = int(PECAS2)
+VALOR2 = float(VALOR2)
+TOTAL = (PECAS1*VALOR1)+(PECAS2*VALOR2)
+print('VALOR A PAGAR: R$ {:.2f}'.format(TOTAL))
+
